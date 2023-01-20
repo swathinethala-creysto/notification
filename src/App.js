@@ -24,6 +24,24 @@ function App() {
       desc: `siv mentioned you in his story on 19th jan 2023 at 5pm `,
       time: 'one day ago',
     },
+    {
+      title: 'liked your image',
+      name: 'Thanvi',
+      desc: `priya mentioned you in his story on 19th jan 2023 at 5pm `,
+      time: 'one day ago',
+    },
+    {
+      title: 'commented on your status',
+      name: 'Maanvi',
+      desc: `Thanvi mentioned you in his story on 20th jan 2023 at 5pm `,
+      time: 'Today',
+    },
+    {
+      title: 'mentioned in her story',
+      name: 'Keerthi',
+      desc: `Devi mentioned you in his story on 20th jan 2023 at 5pm `,
+      time: 'Today',
+    },
   ];
   return (
     <div>

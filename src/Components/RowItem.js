@@ -5,8 +5,8 @@ const RowItem = (props) => {
 
   return (
     <div>
-      <div
-        style={{ width: '100%', border: '1px solid red' }}
+      <div className='tablestyle'
+        style={{ width: '100%', box_shadow: '5px 10px #888888;' }}
         onClick={(e) => {
           setActive((prv) => !prv);
         }}
@@ -33,7 +33,7 @@ const RowItem = (props) => {
             <div className="f_item_c">{props.item.time}</div>
           </div>
           {!active && (
-            <div style={{ marginLeft: '10%' }}>
+            <div className='descstyle' style={{ marginLeft: '10%' }}>
               {props.item.desc.substring(0, 10)}
             </div>
           )}
